@@ -200,7 +200,7 @@ footer a {
 .lichens ul
 {
   display: grid;
-  grid-auto-columns: 200px;
+  grid-auto-columns: 1fr 1fr 1fr 1fr;
   gap: 20px;
 }
 
@@ -208,7 +208,11 @@ footer a {
 /* TASK 5: Use grid. The gallery should have three equal-width columns
    with 10px of space between the photos. The rock photo (it has the
    class wide) should stretch across the first two columns. */
-
+.wide
+{
+ display: grid;
+ grid-template-columns: 2fr 1fr; 
+}
 
 
 /* TASK 6: Use flexbox. The copyright should sit at the far left of the
