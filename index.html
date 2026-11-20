@@ -1,100 +1,137 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Look Closer: Lichens</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Look Closer: Lichens</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero" id="top">
+      <h1>Look Closer: Lichens</h1>
+      <p>
+        The tiny forests growing on rocks, logs and fence posts all around us.
+      </p>
+    </header>
 
-  <header class="hero" id="top">
-    <h1>Look Closer: Lichens</h1>
-    <p>The tiny forests growing on rocks, logs and fence posts all around us.</p>
-  </header>
-
-  <!-- TASKS 1 and 2 style this navigation bar.
+    <!-- TASKS 1 and 2 style this navigation bar.
        You do not need to change any HTML in this quiz. -->
-  <div class="nav-wrap">
-    <a class="logo" href="#top">Look Closer</a>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#lichens">Lichens</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-      </ul>
-    </nav>
-  </div>
+    <div class="nav-wrap">
+      <a class="logo" href="#top">Look Closer</a>
+      <nav>
+        <div>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#lichens">Lichens</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
 
-  <main>
+    <main>
+      <!-- TASK 3 -->
+      <article class="intro" id="about">
+        <h2>What is a lichen?</h2>
+        <p>
+          A lichen is not one living thing but a partnership. A fungus builds
+          the body and holds on to the surface, and an alga or cyanobacterium
+          living inside it makes food from sunlight. Together they can live
+          where neither could alone: on bare rock, old wood and even rusty
+          metal. Most lichens grow only a few millimetres a year, and many are
+          sensitive to air pollution, so a healthy crop of lichens is a good
+          sign of clean air.
+        </p>
+      </article>
 
-    <!-- TASK 3 -->
-    <article class="intro" id="about">
-      <h2>What is a lichen?</h2>
-      <p>A lichen is not one living thing but a partnership. A fungus builds
-        the body and holds on to the surface, and an alga or cyanobacterium
-        living inside it makes food from sunlight. Together they can live
-        where neither could alone: on bare rock, old wood and even rusty
-        metal. Most lichens grow only a few millimetres a year, and many are
-        sensitive to air pollution, so a healthy crop of lichens is a good
-        sign of clean air.</p>
-    </article>
+      <section class="lichens" id="lichens">
+        <h2>Four to look for</h2>
 
-    <section class="lichens" id="lichens">
-      <h2>Four to look for</h2>
+        <!-- TASK 4 -->
+        <ul class="lichen-list">
+          <li>
+            <img
+              src="images/pixie-cups-cluster.jpg"
+              alt="A cluster of grey-green pixie cup lichens rising from a bed of leafy scales"
+            />
+            <h3>Pixie cups</h3>
+            <p>
+              Small grey-green stalks that open into cups, rising from a base of
+              leafy scales. Raindrops landing in the cups splash tiny pieces of
+              lichen out to start new patches.
+            </p>
+          </li>
+          <li>
+            <img
+              src="images/british-soldiers-closeup.jpg"
+              alt="Pale lichen stalks topped with bright red caps on old wood"
+            />
+            <h3>British soldiers</h3>
+            <p>
+              Pale, branching stalks topped with bright red caps. The red tips
+              are where the fungus makes its spores. Look for them on rotting
+              logs and old fence rails.
+            </p>
+          </li>
+          <li>
+            <img
+              src="images/leafy-lichen.jpg"
+              alt="A flat, grey, leaf-like lichen spreading across bark"
+            />
+            <h3>Leafy lichens</h3>
+            <p>
+              Flat, lobed layers that look a little like leaves. The edges often
+              lift away from the bark, so you can see the paler underside.
+            </p>
+          </li>
+          <li>
+            <img
+              src="images/crust-lichen.jpg"
+              alt="Orange, grey and yellow crust lichens covering a rock"
+            />
+            <h3>Crust lichens</h3>
+            <p>
+              Patches that look painted on, growing right into rock and bark.
+              You cannot peel them off without taking the surface with them.
+            </p>
+          </li>
+        </ul>
+      </section>
 
-      <!-- TASK 4 -->
-      <ul class="lichen-list">
-        <li>
-          <img src="images/pixie-cups-cluster.jpg" alt="A cluster of grey-green pixie cup lichens rising from a bed of leafy scales">
-          <h3>Pixie cups</h3>
-          <p>Small grey-green stalks that open into cups, rising from a base
-            of leafy scales. Raindrops landing in the cups splash tiny pieces
-            of lichen out to start new patches.</p>
-        </li>
-        <li>
-          <img src="images/british-soldiers-closeup.jpg" alt="Pale lichen stalks topped with bright red caps on old wood">
-          <h3>British soldiers</h3>
-          <p>Pale, branching stalks topped with bright red caps. The red tips
-            are where the fungus makes its spores. Look for them on rotting
-            logs and old fence rails.</p>
-        </li>
-        <li>
-          <img src="images/leafy-lichen.jpg" alt="A flat, grey, leaf-like lichen spreading across bark">
-          <h3>Leafy lichens</h3>
-          <p>Flat, lobed layers that look a little like leaves. The edges
-            often lift away from the bark, so you can see the paler
-            underside.</p>
-        </li>
-        <li>
-          <img src="images/crust-lichen.jpg" alt="Orange, grey and yellow crust lichens covering a rock">
-          <h3>Crust lichens</h3>
-          <p>Patches that look painted on, growing right into rock and bark.
-            You cannot peel them off without taking the surface with them.</p>
-        </li>
-      </ul>
-    </section>
+      <section class="gallery" id="gallery">
+        <h2>Gallery</h2>
 
-    <section class="gallery" id="gallery">
-      <h2>Gallery</h2>
+        <!-- TASK 5 -->
+        <div class="gallery-wrap">
+          <img
+            class="wide"
+            src="images/crust-lichen.jpg"
+            alt="Crust lichens in shades of orange, grey and yellow on rock"
+          />
+          <img
+            src="images/pixie-cups-trio.jpg"
+            alt="Three pixie cup lichens, one with a cup that has grown a second tier"
+          />
+          <img
+            src="images/pixie-cups-pair.jpg"
+            alt="Two pixie cup lichens leaning towards each other"
+          />
+          <img
+            src="images/leafy-lichen.jpg"
+            alt="A grey leafy lichen surrounded by smaller, finely branched lichens"
+          />
+          <img
+            src="images/british-soldiers-closeup.jpg"
+            alt="A close-up of bright red lichen caps lit by low sun"
+          />
+        </div>
+      </section>
+    </main>
 
-      <!-- TASK 5 -->
-      <div class="gallery-wrap">
-        <img class="wide" src="images/crust-lichen.jpg" alt="Crust lichens in shades of orange, grey and yellow on rock">
-        <img src="images/pixie-cups-trio.jpg" alt="Three pixie cup lichens, one with a cup that has grown a second tier">
-        <img src="images/pixie-cups-pair.jpg" alt="Two pixie cup lichens leaning towards each other">
-        <img src="images/leafy-lichen.jpg" alt="A grey leafy lichen surrounded by smaller, finely branched lichens">
-        <img src="images/british-soldiers-closeup.jpg" alt="A close-up of bright red lichen caps lit by low sun">
-      </div>
-    </section>
-
-  </main>
-
-  <!-- TASK 6 -->
-  <footer>
-    <p>&copy; 2026 Look Closer. Please leave lichens where they grow.</p>
-    <a href="#top">Back to top</a>
-  </footer>
-
-</body>
+    <!-- TASK 6 -->
+    <footer>
+      <p>&copy; 2026 Look Closer. Please leave lichens where they grow.</p>
+      <a href="#top">Back to top</a>
+    </footer>
+  </body>
 </html>
