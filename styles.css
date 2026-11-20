@@ -1,0 +1,200 @@
+/* ===================================================================
+   Look Closer: Lichens
+   The styles in the first block are done for you. Do not change them.
+   Write your rules under each task. Work in order.
+   =================================================================== */
+
+
+/* ---------- DONE FOR YOU ---------- */
+
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #26332a;
+  background: #f3f5ef;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 32px;
+  color: #3f5f45;
+  margin: 0 0 20px;
+}
+
+/* Hero */
+.hero {
+  background-image: linear-gradient(rgb(0 0 0 / 0.45), rgb(0 0 0 / 0.45)),
+    url("images/pixie-cups-trio.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 400;
+  margin: 0 0 10px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin: 0;
+}
+
+/* Navigation */
+.nav-wrap {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #3f5f45;
+  padding: 10px 20px;
+}
+
+.nav-wrap a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Sections */
+main > * {
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.intro h2 {
+  flex-shrink: 0;
+  margin: 0;
+}
+
+/* Lichen cards */
+.lichen-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lichen-list li {
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.15);
+}
+
+.lichen-list img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.lichen-list h3 {
+  margin: 0;
+  padding: 15px 15px 0;
+  font-size: 22px;
+  font-weight: 400;
+  color: #3f5f45;
+}
+
+.lichen-list p {
+  margin: 0;
+  padding: 5px 15px 15px;
+}
+
+/* Gallery */
+.gallery-wrap img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+/* Footer */
+footer {
+  background: #26332a;
+  color: #f3f5ef;
+  padding: 10px 20px;
+}
+
+footer a {
+  color: #f3f5ef;
+}
+
+
+/* ---------- YOUR WORK STARTS HERE ---------- */
+
+
+/* TASK 1: Use flexbox. The logo and the menu should sit on one line in
+   the green bar, with the logo at the far left and the menu at the
+   far right, both lined up with the middle of the bar. */
+
+
+
+/* TASK 2: Use flexbox. The three menu links should sit side by side in
+   a row, with 20px of space between them. */
+
+
+
+/* TASK 3: Use flexbox. The intro heading should sit to the left of the
+   paragraph, lined up with the middle of it, with 40px of space
+   between them. */
+
+
+
+/* TASK 4: Use grid. The four cards should sit side by side in four
+   equal-width columns, with 20px of space between them. */
+
+
+
+/* TASK 5: Use grid. The gallery should have three equal-width columns
+   with 10px of space between the photos. The rock photo (it has the
+   class wide) should stretch across the first two columns. */
+
+
+
+/* TASK 6: Use flexbox. The copyright should sit at the far left of the
+   footer and the Back to top link at the far right, both lined up
+   with the middle of the footer. */
+
+
+
+/* ---------- DONE FOR YOU: SMALL SCREENS ----------
+   Keep this block at the very bottom of the file. It changes your
+   layouts back to one column on a phone. */
+
+@media screen and (max-width: 700px) {
+  .intro,
+  .lichen-list,
+  .gallery-wrap {
+    display: block;
+  }
+
+  .intro h2 {
+    margin-bottom: 20px;
+  }
+
+  .lichen-list li,
+  .gallery-wrap img {
+    margin-bottom: 20px;
+  }
+}
