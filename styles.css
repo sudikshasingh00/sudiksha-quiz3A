@@ -208,18 +208,16 @@ footer a {
 /* TASK 5: Use grid. The gallery should have three equal-width columns
    with 10px of space between the photos. The rock photo (it has the
    class wide) should stretch across the first two columns. */
-.wide
-{
- display: grid;
- column-span: 2/1; 
-}
 .gallery-wrap
 {
   display: grid;
-
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-
-
+.wide
+{
+  grid-column-start: 1;
+  grid
+}
 /* TASK 6: Use flexbox. The copyright should sit at the far left of the
    footer and the Back to top link at the far right, both lined up
    with the middle of the footer. */
