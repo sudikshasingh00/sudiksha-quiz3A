@@ -200,7 +200,7 @@ footer a {
 .lichens ul
 {
   display: grid;
-  grid-auto-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns:  1fr 1fr 1fr 1fr;
   gap: 20px;
 }
 
@@ -211,7 +211,12 @@ footer a {
 .wide
 {
  display: grid;
- grid-template-columns: 2fr 1fr; 
+ column-span: 2/1; 
+}
+.gallery-wrap
+{
+  display: grid;
+
 }
 
 
