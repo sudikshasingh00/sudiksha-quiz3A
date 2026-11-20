@@ -149,7 +149,8 @@ footer a {
    far right, both lined up with the middle of the bar. */
 .nav-wrap
 {
-  display: flexbox;
+  display: flex;
+  border: 2px;
   border-radius: 5px;
 }
 
@@ -161,7 +162,14 @@ footer a {
 
 /* TASK 2: Use flexbox. The three menu links should sit side by side in
    a row, with 20px of space between them. */
-
+.items
+{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  flex-direction: row-reverse;
+  margin-left: auto;
+}
 
 
 /* TASK 3: Use flexbox. The intro heading should sit to the left of the
